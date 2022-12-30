@@ -57,7 +57,7 @@ const Home = () => {
              <div className="flex flex-row w-max overflow-x-scroll 
              no-scrollbar select-none" 
              ref={scrollRef}>
-                {[6, 7, 8, 9, 10].map((i) => (
+                {[1,2,3,4,5,6, 7, 8, 9, 10].map((i) => (
                  <CreatorCard 
                  key={`creator-${i}`}
                       rank={i}
@@ -93,7 +93,7 @@ const Home = () => {
                   key={`nft-${i}`}
                     nft={{
                       i,
-                      name: `Nifty NFT ${i}`,
+                      name: ` NFT ${i}`,
                       price: (10 - i * 0.534).toFixed(2),
                       seller: `0x${makeid(3)}...${makeid(4)}`,
                       owner: `0x${makeid(3)}...${makeid(4)}`,

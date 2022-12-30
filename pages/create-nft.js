@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { useTheme } from 'next-themes';
  
 import images from '../assets'
+import { Input } from '../components';
 
 
 
@@ -80,7 +81,26 @@ const CreateNft = () => {
       </div>
 
      
-       
+      <Input
+          inputType="input"
+          title="Name"
+          placeholder="NFT Name"
+          handleClick={(e) => updateFormInput({  })}
+        />
+         <Input
+          inputType="textarea"
+          title="Description"
+          placeholder="NFT Description"
+          handleClick={(e) => updateFormInput({  })}
+        />
+
+        <Input
+          inputType="number"
+          title="Price"
+          placeholder="NFT Price"
+          handleClick={(e) => updateFormInput({  })}
+        />
+        
 
 
 
