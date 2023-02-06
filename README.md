@@ -11,14 +11,16 @@
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-Try running some of the following tasks:
+Running the following commands will help run this next js file aka nft marketplace
 
 ```shell
-npx hardhat accounts
+npm install
+npx next dev
+
+```
+if u wish to change the smart contract aka the backend , u need to run the following commands
+
+```shell
 npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+
 ```
